@@ -1,0 +1,8 @@
+peakrdl-html == 2.9.0
+peakrdl-uvm == 2.2.0
+peakrdl == 0.4.0
+peakrdl-python == 0.3.10
+peakrdl-ipxact == 3.3.0
+peakrdl-regblock == 0.10.0
+
+importlib-metadata >= 6.1.0

@@ -1,0 +1,17 @@
+[project]
+name = "my_amazing_exporter"
+description = "Testcase to highlight importlib.metadata issues"
+version = "0.1"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.entry-points."peakrdl.exporters"]
+my_amazing_exporter = "my_amazing_exporter:MyAmazingExporter"
